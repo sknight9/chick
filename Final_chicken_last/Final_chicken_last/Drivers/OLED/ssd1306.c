@@ -24,7 +24,8 @@ void ssd1306_WriteData(uint8_t* buffer, size_t buff_size) {
 void ssd1306_Reset(void) {
     // CS = High (not selected)
     HAL_GPIO_WritePin(SSD1306_CS_Port, SSD1306_CS_Pin, GPIO_PIN_SET);
-
+    HAL_GPIO_WritePin(SSD1306_Reset_Port, SSD1306_Reset_Pin, GPIO_PIN_SET);
+    HAL_Delay(10);
     // Reset the OLED
     HAL_GPIO_WritePin(SSD1306_Reset_Port, SSD1306_Reset_Pin, GPIO_PIN_RESET);
     HAL_Delay(10);
@@ -66,8 +67,8 @@ void ssd1306_Set_Page(uint8_t page) {
 void ssd1306_WriteData(uint8_t* buffer, size_t buff_size) {
     HAL_GPIO_WritePin(SSD1306_CS_Port, SSD1306_CS_Pin, GPIO_PIN_RESET); // select OLED
     HAL_GPIO_WritePin(SSD1306_DC_Port, SSD1306_DC_Pin, GPIO_PIN_SET); // data
-    HAL_SPI_Transmit_IT(&SSD1306_SPI_PORT, buffer, buff_size);
-    //HAL_GPIO_WritePin(SSD1306_CS_Port, SSD1306_CS_Pin, GPIO_PIN_SET); // un-select OLED
+    HAL_SPI_Transmit(&SSD1306_SPI_PORT, buffer, buff_size,HAL_MAX_DELAY);
+    HAL_GPIO_WritePin(SSD1306_CS_Port, SSD1306_CS_Pin, GPIO_PIN_SET); // un-select OLED
 }
 
 void HAL_SPI_TxCpltCallback (SPI_HandleTypeDef * hspi)

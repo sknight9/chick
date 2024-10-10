@@ -14,7 +14,7 @@
 #define SSD1306_USE_SPI
 
 // SPI Config
-#define SSD1306_SPI_PORT        hspi1
+#define SSD1306_SPI_PORT        hspi3
 #define SSD1306_CS_Port         GPIOA
 #define SSD1306_CS_Pin          GPIO_PIN_8
 #define SSD1306_DC_Port         GPIOA

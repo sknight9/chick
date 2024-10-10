@@ -25,13 +25,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/Drivers/OLED/ssd1306.h \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/Drivers/OLED/ssd1306_conf.h \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/Drivers/OLED/ssd1306_fonts.h \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/ee.h \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/ee.c \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/ee.h \
- C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/eeConfig.h
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/Drivers/OLED/ssd1306.h \
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/Drivers/OLED/ssd1306_conf.h \
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/Drivers/OLED/ssd1306_fonts.h \
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/ee.h \
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/ee.c \
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/ee.h \
+ C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/eeConfig.h
 ../Core/Inc/main.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 ../Core/Inc/stm32l4xx_hal_conf.h:
@@ -59,10 +59,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h:
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/Drivers/OLED/ssd1306.h:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/Drivers/OLED/ssd1306_conf.h:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/Drivers/OLED/ssd1306_fonts.h:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/ee.h:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/ee.c:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/ee.h:
-C:/Users/sawyer/STM32CubeIDE/workspace_1.13.1/Final_chicken_last/ee/eeConfig.h:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/Drivers/OLED/ssd1306.h:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/Drivers/OLED/ssd1306_conf.h:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/Drivers/OLED/ssd1306_fonts.h:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/ee.h:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/ee.c:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/ee.h:
+C:/Users/knight-9/Documents/chick/Final_chicken_last/Final_chicken_last/ee/eeConfig.h:
